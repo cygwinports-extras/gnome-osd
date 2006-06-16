@@ -1,0 +1,105 @@
+gnome-osd
+-------------------------------------------
+This is an OSD (On Screen Display) GNOME component.  
+It displays messages overlaid on your screen, using 
+shaped windows and pango for rendering.  It was
+inspired by XOSD (http://www.ignavus.net/software.html).
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  gnome-python2-2.10.0-1
+  pydbus-0.60-1
+  pygtk2-2.6.3-1
+  pyorbit-2.0.1-2
+  python-2.4.1-1
+
+Canonical homepage:
+  http://telecom.inescporto.pt/~gjc/gnome-osd/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gnome-osd-0.10.0-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./gnome-osd-0.10.0-1.sh all
+
+This will create:
+  /usr/src/gnome-osd-0.10.0-1-src.tar.bz2
+  /usr/src/gnome-osd-0.10.0-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/gconf/schemas/gnome-osd.schemas
+  /etc/postinstall/gnome-osd.sh
+  /etc/preremove/gnome-osd.sh
+  /etc/xdg/autostart/gnome-osd-event-bridge.desktop
+  /usr/bin/gnome-osd-client
+  /usr/bin/gnome-osd-event-bridge
+  /usr/bin/gnome-osd-properties
+  /usr/lib/bonobo/servers/GNOME_OSD.server
+  /usr/lib/python2.4/site-packages/gnomeosd/capplet.py
+  /usr/lib/python2.4/site-packages/gnomeosd/capplet.pyc
+  /usr/lib/python2.4/site-packages/gnomeosd/capplet.pyo
+  /usr/lib/python2.4/site-packages/gnomeosd/client.py
+  /usr/lib/python2.4/site-packages/gnomeosd/client.pyc
+  /usr/lib/python2.4/site-packages/gnomeosd/client.pyo
+  /usr/lib/python2.4/site-packages/gnomeosd/eventbridge.py
+  /usr/lib/python2.4/site-packages/gnomeosd/eventbridge.pyc
+  /usr/lib/python2.4/site-packages/gnomeosd/eventbridge.pyo
+  /usr/lib/python2.4/site-packages/gnomeosd/gconfsync.py
+  /usr/lib/python2.4/site-packages/gnomeosd/gconfsync.pyc
+  /usr/lib/python2.4/site-packages/gnomeosd/gconfsync.pyo
+  /usr/lib/python2.4/site-packages/gnomeosd/gnome_osd_conf.py
+  /usr/lib/python2.4/site-packages/gnomeosd/gnome_osd_conf.pyc
+  /usr/lib/python2.4/site-packages/gnomeosd/gnome_osd_conf.pyo
+  /usr/lib/python2.4/site-packages/gnomeosd/gosd.py
+  /usr/lib/python2.4/site-packages/gnomeosd/gosd.pyc
+  /usr/lib/python2.4/site-packages/gnomeosd/gosd.pyo
+  /usr/lib/python2.4/site-packages/gnomeosd/gtasklet.py
+  /usr/lib/python2.4/site-packages/gnomeosd/gtasklet.pyc
+  /usr/lib/python2.4/site-packages/gnomeosd/gtasklet.pyo
+  /usr/lib/python2.4/site-packages/gnomeosd/server.py
+  /usr/lib/python2.4/site-packages/gnomeosd/server.pyc
+  /usr/lib/python2.4/site-packages/gnomeosd/server.pyo
+  /usr/lib/python2.4/site-packages/gnomeosd/__init__.py
+  /usr/lib/python2.4/site-packages/gnomeosd/__init__.pyc
+  /usr/lib/python2.4/site-packages/gnomeosd/__init__.pyo
+  /usr/sbin/gnome-osd-server
+  /usr/share/control-center-2.0/capplets/gnome-osd-properties.desktop
+  /usr/share/dbus-1/services/pt.inescporto.telecom.GnomeOSD.service
+  /usr/share/doc/Cygwin/gnome-osd-0.10.0.README
+  /usr/share/doc/gnome-osd-0.10.0/AUTHORS
+  /usr/share/doc/gnome-osd-0.10.0/ChangeLog
+  /usr/share/doc/gnome-osd-0.10.0/COPYING
+  /usr/share/doc/gnome-osd-0.10.0/INSTALL
+  /usr/share/doc/gnome-osd-0.10.0/NEWS
+  /usr/share/doc/gnome-osd-0.10.0/README
+  /usr/share/gnome-osd/xchatosd.py
+  /usr/share/locale/ja/LC_MESSAGES/gnome-osd.mo
+  /usr/share/locale/pt/LC_MESSAGES/gnome-osd.mo
+  /usr/share/man/man1/gnome-osd-client.1.gz
+  /usr/share/pixmaps/gnome-osd.png
+
+------------------
+
+Port Notes:
+
+----- version 0.10.0-1 -----
+Version bump.
+
+----- version 0.9.1-1 -----
+Version bump.
+
+----- version 0.8.0-1 -----
+Version bump.
+
+----- version 0.7.2-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/

@@ -1,0 +1,6 @@
+category: Gnome
+requires: cygwin gnome-python2 pydbus pygtk2 pyorbit python
+sdesc: "GNOME on-screen display component"
+ldesc: "This is an OSD (On Screen Display) GNOME component. It displays
+messages overlaid on your screen, using shaped windows and pango for
+rendering.  It was inspired by XOSD."
