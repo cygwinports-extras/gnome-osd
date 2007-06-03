@@ -1,0 +1,5 @@
+inherit gnome2
+
+DESCRIPTION="GNOME on-screen display component"
+HOMEPAGE="http://www.gnomefiles.org/app.php?soft_id=350"
+SRC_URI="http://telecom.inescporto.pt/~gjc/gnome-osd/${PV_MAJ_MIN}/${P}.tar.gz"
